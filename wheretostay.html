@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where to Stay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain attribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {
+                                elmnt.innerHTML = this.responseText;
+                            }
+                            if (this.status == 404) {
+                                elmnt.innerHTML = "Page not found.";
+                            }
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    };
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        }
+    </script>
+    <script>
+        import {
+            Rating,
+            initTE,
+        } from "tw-elements";
+
+        initTE({ Rating });
+    </script>
+
+</head>
+
+<body>
+
+    <div w3-include-html="navbar.html"></div>
+    <script>
+        includeHTML();
+    </script>
+
+    <div class="mt-24">
+        <img src="https://www.keralatourism.org/images/icpc-inner-banner-desktop-2.jpg" width="100%"
+            alt="International Children's Painting Competition 2023">
+    </div>
+
+    <div>
+        <div class="bg-blue-900 text-white text-3xl ">
+            Where to Stay
+        </div>
+        <div class="flex flex-row gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px" height="20px" colour="blue">
+                <path
+                    d="M 24.962891 1.0546875 A 1.0001 1.0001 0 0 0 24.384766 1.2636719 L 1.3847656 19.210938 A 1.0005659 1.0005659 0 0 0 2.6152344 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.384766 20.789062 A 1.0005657 1.0005657 0 1 0 48.615234 19.210938 L 41 13.269531 L 41 6 L 35 6 L 35 8.5859375 L 25.615234 1.2636719 A 1.0001 1.0001 0 0 0 24.962891 1.0546875 z M 25 3.3222656 L 44 18.148438 L 44 45 L 32 45 L 32 26 L 18 26 L 18 45 L 6 45 L 6 18.148438 L 25 3.3222656 z M 37 8 L 39 8 L 39 11.708984 L 37 10.146484 L 37 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z" />
+            </svg>
+            <a class="text-blue-900" href="./maintravelling.html"> Home</a>
+        </div>
+
+        <p class="mt-5">
+            The Department of Tourism, Government of Kerala, offers the details of accredited service providers in the
+            state through this section. Travellers can get information about accommodation facilities (hotels, resorts,
+            homestays & heritage buildings), Ayurveda centres and tour operators in Kerala.
+        </p>
+
+        <div class="flex flex-row mt-10 gap-5 bg-slate-100">
+            <div>
+                <img src="https://www.keralatourism.org/images/service-providers/photos/thumb/property-4610-profile-23867-20200225073004.jpg"
+                    alt="Blue Moon Homestay">
+            </div>
+            <div>
+                <div class="text-xl	">
+                    <strong>Blue Moon Homestay</strong>
+                </div>
+                <div>
+                    Direction:
+                    <a class="opacity-50"
+                        href="https://www.google.com/maps/dir//''/@10.0139996,77.0573008,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b0798866f6b1601:0x56014320864cf48d!2m2!1d77.0593246!2d10.0129766?entry=ttu">
+                        Aadit Near Service Station-Kunchithanny, Idukki</a>
+                </div>
+
+            </div>
+
+            <div>
+                <strong>2000 RS </strong>
+
+                <ul class="my-1 flex list-none gap-1 p-0" data-te-rating-init>
+                    <li>
+                        <span class="text-primary [&>svg]:h-5 [&>svg]:w-5" title="Bad" data-te-rating-icon-ref>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text-primary [&>svg]:h-5 [&>svg]:w-5" title="Poor" data-te-rating-icon-ref>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text-primary [&>svg]:h-5 [&>svg]:w-5" title="OK" data-te-rating-icon-ref>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text-primary [&>svg]:h-5 [&>svg]:w-5" title="Good" data-te-rating-icon-ref>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text-primary [&>svg]:h-5 [&>svg]:w-5" title="Excellent" data-te-rating-icon-ref>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

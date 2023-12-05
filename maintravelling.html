@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
     function includeHTML() {
       var z, i, elmnt, file, xhttp;
@@ -40,6 +41,9 @@
   </script>
 
   <script>
+    var e = document.getElementById("navbar");
+    e.style.backgroundColor = "transparent";
+
     window.onscroll = function changeNavBg() {
       var e = document.getElementById("navbar");
 
@@ -54,10 +58,8 @@
   <!-- <for swiper> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <style>
- 
-
     body {
-      background: #eee;
+      background: #fff;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #000;
@@ -95,6 +97,7 @@
     includeHTML();
   </script>
 
+
   <div class="swiper mySwiper w-full h-[650px]" id="mySwiper1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -128,30 +131,33 @@
     <div class="swiper-pagination h-10"></div>
   </div>
 
-  <div class="flex flex-col " id="jeni">
+  <div class="flex flex-col " id="Experience_kerala">
     <div class="flex flex-row justify-center mt-16 text-3xl  mt-20 text-blue-900">
       Experience Kerala
     </div>
 
-    <div class="swiper mySwiper h-[567px] w-[1500px] pt-14 " id="mySwiper2" >
+    <div class="swiper mySwiper h-[567px] w-[1500px] pt-14 " id="mySwiper2">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/yoga5.jpg" alt="Yoga" >
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/yoga5.jpg" alt="Yoga">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Theyyam2.jpg" alt="Kannur" >
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Theyyam2.jpg" alt="Kannur">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/judaisam13.jpg" alt="Judaism in Kerala" >
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/judaisam13.jpg"
+            alt="Judaism in Kerala">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ecotourism.jpg" alt="Ecotourism" >
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ecotourism.jpg" alt="Ecotourism">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Experience_Kerala1.jpg" alt="Lands of Majestic Treats" >
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Experience_Kerala1.jpg"
+            alt="Lands of Majestic Treats">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/RT-2.jpg" alt="Responsible Tourism Mission" > 
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/RT-2.jpg"
+            alt="Responsible Tourism Mission">
         </div>
       </div>
     </div>
@@ -161,60 +167,66 @@
     </div>
   </div>
 
-  <div class="bg-slate-200 pt-10 pb-10 mt-10">
+  <div class="bg-slate-200 pt-10 pb-10 mt-10" id="Where_to_go">
     <div class="flex flex-row justify-center text-3xl  text-blue-900">Top Destinations</div>
 
     <div class="flex flex-col gap-1 px-40 mt-10">
       <div class="flex flex-row gap-1">
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/thekkekudi_cave_temple.jpg" alt="Thekkekudi Cave Temple" >
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/thekkekudi_cave_temple.jpg"
+            alt="Thekkekudi Cave Temple">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-            Thekkekudi Cave Temple"
+            Thekkekudi Cave Temple
           </div>
         </div>
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/museum_of_kerala_history.jpg" alt="Museum of Kerala History" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Museum of Kerala History
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/museum_of_kerala_history.jpg"
+            alt="Museum of Kerala History">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Museum of Kerala History
           </div>
         </div>
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/kalamandalam.jpg" alt="Kerala Kalamandalam" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Kerala Kalamandalam
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/kalamandalam.jpg"
+            alt="Kerala Kalamandalam">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Kerala Kalamandalam
           </div>
         </div>
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/Kuthampully2.jpg" alt="Kuthampully Handloom Village" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Kuthampully Handloom Village
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Kuthampully2.jpg"
+            alt="Kuthampully Handloom Village">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Kuthampully Handloom Village
           </div>
         </div>
       </div>
       <div class="flex flex-row gap-1">
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/kunhimangalam1.jpg" alt="Kunhimangalam" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Kunhimangalam
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/kunhimangalam1.jpg"
+            alt="Kunhimangalam">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Kunhimangalam
           </div>
         </div>
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/mannar2.jpg" alt="Mannar" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Mannar
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/mannar2.jpg" alt="Mannar">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Mannar
           </div>
         </div>
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/vyloppilli-samakrithi-bhavan1.jpg" alt="Vyloppilli Samskrithi Bhavan" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Vyloppilli Samskrithi Bhavan"
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/vyloppilli-samakrithi-bhavan1.jpg"
+            alt="Vyloppilli Samskrithi Bhavan">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Vyloppilli Samskrithi Bhavan
           </div>
         </div>
 
         <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/MANNANAM-1.jpg" alt="Mannanam" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Mannanam
+          <img src="https://www.keralatourism.org/images/homecontentimage/desktop/MANNANAM-1.jpg" alt="Mannanam">
+          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+            Mannanam
           </div>
         </div>
       </div>
@@ -225,73 +237,89 @@
     </div>
   </div>
 
-  <div class="flex flex-row justify-center mt-10">
-    <div class="flex flex-row justify-center text-3xl ">Things to do in Kerala</div>
+  <div id="Things_to_do" class="relative">
+    <div class="">
+      <img class="w-full h-[850px] absolute"
+        src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-autumn-nature-colors-during-sunset-free-photo.jpg?w=600&quality=80"
+        alt="nature image">
+    </div>
+    <div class="flex  flex-col items-center">
+      <div class=" text-3xl mt-14 text-white z-[2]">Things to do in Kerala</div>
 
-    <div class="flex flex-col gap-5  mt-10">
-      <div class="flex flex-row gap-5">
-        <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/thekkekudi_cave_temple.jpg" alt="Thekkekudi Cave Temple" >
-          <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-            Thekkekudi Cave Temple"
-          </div>
-        </div>
-        <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/museum_of_kerala_history.jpg" alt="Museum of Kerala History" class="img-responsive">
+      <div class="flex flex-col gap-5 z-[2] mt-10">
+        <div class="flex flex-row gap-5">
+          <div class="flex flex-col">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Screw-Pine-Weaving1.jpg"
+              alt="Responsible Tourism">
             <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Museum of Kerala History
+              Responsible Tourism
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/kalamandalam.jpg" alt="Kerala Kalamandalam" class="img-responsive">
+          <div class="flex flex-col">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ayurveda6.jpg" alt="Ayurveda">
             <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Kerala Kalamandalam
+              Ayurveda
+            </div>
           </div>
-        </div>
-        
-      </div>
-      <div class="flex flex-row gap-5">
-        
-        <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/mannar2.jpg" alt="Mannar" class="img-responsive">
+          <div class="flex flex-col">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Paragliding.jpg" alt="Paragliding">
             <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Mannar
+              Paragliding
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/vyloppilli-samakrithi-bhavan1.jpg" alt="Vyloppilli Samskrithi Bhavan" class="img-responsive">
-            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Vyloppilli Samskrithi Bhavan"
-          </div>
-        </div>
 
-        <div class="flex flex-col w-[25%]">
-          <img loading="lazy" src="https://www.keralatourism.org/images/homecontentimage/desktop/MANNANAM-1.jpg" alt="Mannanam" class="img-responsive">
+        </div>
+        <div class="flex flex-row gap-5">
+
+          <div class="flex flex-col ">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/A-Journey-through-the-Forest.jpg"
+              alt="A Journey through the Forest">
             <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
-              Mannanam
+              A Journey through the Forest
+            </div>
+          </div>
+          <div class="flex flex-col ">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/scuba-diving1.jpg"
+              alt="Scuba Diving">
+            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+              Scuba Diving
+            </div>
+          </div>
+
+          <div class="flex flex-col ">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Hiking.jpg" alt="Hiking">
+            <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
+              Hiking
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="flex flex-row justify-center mt-10">
+      <a class="bg-blue-900 text-white px-4 py-2  z-[2] hover:bg-blue-950 text-2xl" href="#">Find More Activity ></a>
+    </div>
   </div>
 
-  <div >
-    <video controls="" class="img-responsive reveal-inline-block" alt=" " width="full" height="500 ">
-      <source src="https://www.keralatourism.org/images/kt/videos/Loop_video_Rain-MP41.mp4" type="video/mp4 " />
-    </video>
-
-
-    <div class="flex flex-col items-center text-white ">
-      <div class="flex justify-center bg-slate-800 opacity-70 text-3xl table-bordered border-2 w-[400px]">
+  <div class="flex flex-col items-center mt-32">
+    <div class="flex flex-col items-center text-white">
+      <div class="flex justify-center bg-slate-800 opacity-70 text-3xl table-bordered border-2 w-[400px] ">
         EXPLORE OUR VIDEOS
       </div>
-      <div class="text-lg">
+      <div class="text-lg text-blue-700 mt-5">
         Take a peek at what God's Own Country has to offer you. Be awed.
       </div>
     </div>
+    <div>
+
+      <video controls="" class=" w-[1500px] mt-10">
+        <source src="https://www.keralatourism.org/images/kt/videos/Loop_video_Rain-MP41.mp4" type="video/mp4 " />
+      </video>
+    </div>
+
+
   </div>
 
-  <div class="bg-white	flex flex-col items-center mt-20">
+  <div class="bg-white	flex flex-col items-center mt-7 pt-10" id="Plan_your_trip">
 
     <div class="flex flex-row justify-center text-3xl text-blue-900 ">Plan Your Trip</div>
 
@@ -398,37 +426,43 @@
     <div class="flex flex-col  mt-20 ">
       <div class="flex flex-row">
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/img-13.jpg" alt="Beaches" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/img-13.jpg" alt="Beaches">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl ">
-           Beaches
+            Beaches
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/panorama.jpg" alt="Kerala Panorama" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/panorama.jpg" alt="Kerala Panorama">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Kerala Panorama
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/img-3.jpg" alt="Pilgrim Centres">
+          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/img-3.jpg"
+            alt="Pilgrim Centres">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Pilgrim Centres
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"  src="https://www.keralatourism.org/images/homecontentimage/desktop/img-4.jpg" alt="Artforms" >
+          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/img-4.jpg"
+            alt="Artforms">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Artforms
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/festivals.jpg" alt="Festivals" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/festivals.jpg" alt="Festivals">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Festivals
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/img-6.jpg" alt="Places of Interest" >
+          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/img-6.jpg"
+            alt="Places of Interest">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Places of Interest
           </div>
@@ -436,38 +470,45 @@
       </div>
       <div class="flex flex-row ">
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/waterfall.jpg" alt="Waterfalls" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/waterfall.jpg" alt="Waterfalls">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Waterfalls
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/places-of-interest.jpg" alt="Monuments" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/places-of-interest.jpg" alt="Monuments">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Monuments
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/img-9.jpg" alt="Wildlife" >
+          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/img-9.jpg"
+            alt="Wildlife">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Wildlife
           </div>
         </div>
 
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/img-10.jpg" alt="Hills" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/img-10.jpg" alt="Hills">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Hills
           </div>
         </div>
         <div class="flex flex-col ">
-          <img class="h-[300px] w-[700px]" src="https://www.keralatourism.org/images/homecontentimage/desktop/Ayurveda.jpg" alt="Ayurveda" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/Ayurveda.jpg" alt="Ayurveda">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Ayurveda
           </div>
         </div>
         <div class="flex flex-col ">
-          <img  class="h-[300px] w-[700px]"src="https://www.keralatourism.org/images/homecontentimage/desktop/Backwater-kasargod_004.jpg" alt="Backwaters" >
+          <img class="h-[300px] w-[700px]"
+            src="https://www.keralatourism.org/images/homecontentimage/desktop/Backwater-kasargod_004.jpg"
+            alt="Backwaters">
           <div class="bg-slate-800 -mt-7 h-7 opacity-70 text-white text-center text-xl">
             Backwaters
           </div>
@@ -479,7 +520,7 @@
       <a class="bg-blue-900 text-white px-4 py-2 hover:bg-blue-950 text-2xl" href="#">BROWSE OUR GALLERY</a>
     </div>
   </div>
-  
+
   <div>
     <div w3-include-html="footer.html"></div>
   </div>
